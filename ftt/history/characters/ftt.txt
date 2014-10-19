@@ -1,9 +1,61 @@
 #Sharawrah Start
+1000215065 = {
+	name="Azam"
+	dynasty="1000083000"
+	religion="sunni"
+	culture="bedouin_arabic"	
+	710.1.1={
+		birth="710.1.1"
+	}
+	770.1.1={
+		death="770.1.1"
+	}
+}
+1000215064 = {
+	name="Mansur"
+	dynasty="1000083000"
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000215065	
+	750.1.1={
+		birth="750.1.1"
+	}
+	840.1.1={
+		death="810.1.1"
+	}
+}
+1000215063 = {
+	name="Talib"
+	dynasty="1000083000"
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000215064
+	790.1.1={
+		birth="790.1.1"
+	}
+	840.1.1={
+		death="840.1.1"
+	}
+}
+1000215062 = {
+	name="Mansur"
+	dynasty="1000083000"
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000215063
+	810.1.1={
+		birth="810.1.1"
+	}
+	864.1.1={
+		death="864.1.1"
+	}
+}
 1000215000 = {
 	name="Shamir"
 	dynasty="1000083000"
 	religion="sunni"
 	culture="bedouin_arabic"
+	father=1000215062
 	846.1.1={
 		birth="846.1.1"
 	}
@@ -160,7 +212,7 @@
 	name="Theodemir"
 	dynasty="1000083001"
 	religion="norse"
-	culture="norse"
+	culture="visigothic"
 	423.1.1={
 		birth="423.1.1"
 	}
@@ -172,7 +224,7 @@
 	name="Theoderic"
 	dynasty="1000083001"
 	religion="catholic"
-	culture="norse" #Actually Gothic
+	culture="visigothic"
 	father = 1000215012
 	454.1.1={
 		birth="454.1.1"
@@ -188,7 +240,7 @@
 	name="Amalaric"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse" #Actually Gothic
+	culture="visigothic"
 	father = 1000215054
 	502.1.1={
 		birth="502.1.1"
@@ -214,7 +266,7 @@
 	name="Theudigisel"
 	#dynasty="1000083002"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215012
 	500.1.1={
 		birth="500.1.1"
@@ -227,7 +279,7 @@
 	name="Agila"
 	#dynasty="1000083002"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215012
 	500.1.1={
 		birth="500.1.1"
@@ -240,7 +292,7 @@
 	name="Athanagild"
 	#dynasty="1000083002"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215012
 	500.1.1={
 		birth="500.1.1"
@@ -253,7 +305,7 @@
 	name="Liuva"
 	#dynasty="1000083002"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215012
 	500.1.1={
 		birth="500.1.1"
@@ -266,7 +318,7 @@
 	name="Liuvigild"
 	dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215012
 	525.1.1={
 		birth="525.1.1"
@@ -279,7 +331,7 @@
 	name="Reccared"
 	dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	father = 1000215020
 	559.1.1={
 		birth="559.1.1"
@@ -292,7 +344,7 @@
 	name="Liuva"
 	dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	father = 1000215021
 	583.1.1={
 		birth="583.1.1"
@@ -305,7 +357,7 @@
 	name="Witteric"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215021
 	565.1.1={
 		birth="565.1.1"
@@ -318,7 +370,7 @@
 	name="Gundemar"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215021
 	565.1.1={
 		birth="565.1.1"
@@ -331,7 +383,7 @@
 	name="Sisebut"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215021
 	565.1.1={
 		birth="565.1.1"
@@ -344,7 +396,7 @@
 	name="Reccared"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	father = 1000215025
 	617.1.1={
 		birth="617.1.1"
@@ -357,7 +409,7 @@
 	name="Suintila"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	father = 1000215021
 	588.1.1={
 		birth="588.1.1"
@@ -370,7 +422,7 @@
 	name="Sisenand"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215021
 	605.1.1={
 		birth="605.1.1"
@@ -386,7 +438,7 @@
 	name="Chintila"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215021
 	605.1.1={
 		birth="605.1.1"
@@ -399,7 +451,7 @@
 	name="Tulga"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	father = 1000215029
 	625.1.1={
 		birth="625.1.1"
@@ -412,7 +464,7 @@
 	name="Chindasuinth"
 	dynasty="1000083006"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215029
 	563.1.1={
 		birth="563.1.1"
@@ -426,7 +478,7 @@
 	name="Recceswinth"
 	dynasty="1000083006"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	father = 1000215031
 	620.1.1={
 		birth="620.1.1"
@@ -439,7 +491,7 @@
 	name="Wamba" #Real First Name Flavius?
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215031
 	625.1.1={
 		birth="625.1.1"
@@ -452,7 +504,7 @@
 	name="Erwig"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215031
 	625.1.1={
 		birth="625.1.1"
@@ -465,7 +517,7 @@
 	name="Egica"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215031
 	610.1.1={
 		birth="610.1.1"
@@ -478,7 +530,7 @@
 	name="Wittiza"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	father = 1000215035
 	680.1.1={
 		birth="680.1.1"
@@ -491,7 +543,7 @@
 	name="Achila"
 	#dynasty="1000083004"
 	religion="catholic"
-	culture="norse" #actually Gothic
+	culture="visigothic"
 	#father = 1000215035
 	680.1.1={
 		birth="680.1.1"
@@ -569,7 +621,7 @@
 	name="Theudis"
 	#dynasty="1000083005"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	#father = 1000215035
 	490.1.1={
 		birth="490.1.1"
@@ -595,7 +647,7 @@
 	name="Theodefred"
 	dynasty="1000083006"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215031
 	640.1.1={
 		birth="640.1.1"
@@ -608,7 +660,7 @@
 	name="Roderic"
 	dynasty="1000083006"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215045
 	690.1.1={
 		birth="690.1.1"
@@ -621,7 +673,7 @@
 	name="Alaric"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215055
 	370.1.1={
 		birth="370.1.1"
@@ -634,7 +686,7 @@
 	name="Ataulf"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215055
 	370.1.1={
 		birth="370.1.1"
@@ -647,7 +699,7 @@
 	name="Wallia"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215055
 	370.1.1={
 		birth="370.1.1"
@@ -660,7 +712,7 @@
 	name="Theoderic"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215047
 	400.1.1={
 		birth="400.1.1"
@@ -674,7 +726,7 @@
 	name="Thorismund"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215050
 	420.1.1={
 		birth="420.1.1"
@@ -687,7 +739,7 @@
 	name="Theoderic"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215050
 	421.1.1={
 		birth="421.1.1"
@@ -700,7 +752,7 @@
 	name="Euric"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215050
 	440.1.1={
 		birth="440.1.1"
@@ -713,7 +765,7 @@
 	name="Alaric"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215048
 	470.1.1={
 		birth="470.1.1"
@@ -726,7 +778,7 @@
 	name="Athanaric"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215059
 	320.1.1={
 		birth="320.1.1"
@@ -739,7 +791,7 @@
 	name="Sigeric"
 	dynasty="1000083001"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	#father = 1000215045
 	370.1.1={
 		birth="370.1.1"
@@ -752,7 +804,7 @@
 	name="Gesalec"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215054
 	490.1.1={
 		birth="490.1.1"
@@ -766,7 +818,7 @@
 	name="Athanaric"
 	#dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	#father = 1000215059
 	340.1.1={
 		birth="340.1.1"
@@ -779,7 +831,7 @@
 	name="Euric"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215060
 	290.1.1={
 		birth="290.1.1"
@@ -792,7 +844,7 @@
 	name="Geberich"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	#father = 1000215055
 	290.1.1={
 		birth="290.1.1"
@@ -805,7 +857,7 @@
 	name="Frithigar"
 	dynasty="1000083002"
 	religion="catholic"
-	culture="norse"
+	culture="visigothic"
 	father = 1000215060
 	290.1.1={
 		birth="290.1.1"

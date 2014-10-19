@@ -80,7 +80,7 @@ d_northumberland;NOL;Northumberland;Northumberland Duchy
 c_northumberland;NOL;Northumberland;Northumberland County
 d_connacht;CNN;Connacht;Connacht Duchy
 d_leinster;LEI;Leinster;Leinster Duchy
-d_munster;MNS;IRE_Munster;Munster Duchy
+d_munster;MNS;Munster;Munster Duchy
 c_tyrone;TYR;Tyrone;Tyrone County
 c_connacht;CNN;Connacht;Connacht County
 c_leinster;LEI;Leinster;Leinster County
@@ -171,8 +171,8 @@ d_silesia;SIL;Silesia;Silesia Duchy
 c_salzburg;SLZ;Salzburg;Salzburg County
 d_thuringia;THU;Thuringia;Thuringia Duchy
 c_thuringen;THU;Thuringia;Thuringia County
-d_tyrol;TIR;Tirol;Tirol Duchy
-c_tirol;TIR;Tirol;Tirol County
+d_tyrol;TIR;Tyrol;Tirol Duchy
+c_tirol;TIR;Tyrol;Tirol County
 c_trier;TRI;Trier;Trier County
 c_ulm;ULM;Ulm;Ulm County
 c_wurzburg;WBG;Wurzburg;Wurzburg County

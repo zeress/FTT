@@ -724,7 +724,7 @@ e_north_sea = {
 		not = { tier = emperor }
 		OR = {
 			culture_group = north_germanic
-			culture = english_norse
+			culture = norse
 		}
 		OR = {
 			realm_size = 150
@@ -753,7 +753,7 @@ e_outremer = {
 	}
 	short_name = yes
 	
-	culture = outremer
+	culture = frankish
 }
 e_andalusia = {
 	color = { 201  191  122 }
@@ -819,39 +819,6 @@ e_ethiopia = {
 }
 
 # v1.00	
-
-k_rum = {
-	color = { 144 182 161 }
-	culture = turkish
-	capital = 737
-	#dynasty_title_names = no
-	
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2	
-			}
-			k_rum = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-	
-k_trebizond = {
-	color={ 100 151 33 }
-	capital = 678 # Trapezous
-	culture = greek
-	
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_trebizond = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
 
 k_prussia = {
 	color={ 121 146 209 }
@@ -945,21 +912,6 @@ k_iceland = {
 }
 
 # v1.02
-
-k_trinacria = {
-	color = { 239 222 247 }
-	capital = 340 # Palermo
-	culture = catalan
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_trinacria = { OR = { is_titular = no has_holder = yes } }
-		}	
-	}
-	dignity = 10
-}
 
 k_mallorca = {
 	color = { 70 130 75 }
@@ -1233,21 +1185,6 @@ k_belgium = {
 	}
 	dignity = 10
 }
-
-k_moravia = {
-	color={ 196 8 86 }
-	capital = 441 # Brno
-	culture = bohemian
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_moravia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}	
 
 # v1.07
 
@@ -1652,24 +1589,6 @@ k_yugoslavia= {
 	dignity = 10
 }
 
-# v1.18
-
-k_naples = {
-	color = { 228 227 252 }
-	capital = 334 # Napoli
-	culture = italian
-	
-	allow = {
-			OR = {
-				NOT = {
-					num_of_king_titles = 2
-				}
-				k_naples = { OR = { is_titular = no has_holder = yes } }
-			}
-	}
-	dignity = 10	
-}
-
 # v1.20
 
 k_sami = {
@@ -1901,39 +1820,6 @@ k_wurttemberg = {
 		}
 	}
 	dignity = 10
-}
-
-k_lombardy = {
-	color = { 31 138 40 }
-	capital = 235 # Lombardia
-	culture = italian
-	
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_lombardy = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_saxony = {
-	color={ 74 132 75 }
-	capital = 256 #
-	culture = german
-	
-	
-	allow = {
-		war = no
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_saxony = { OR = { is_titular = no has_holder = yes } }
-		}	
-	}
 }
 
 k_livonia = {
