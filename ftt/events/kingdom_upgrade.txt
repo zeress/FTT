@@ -1,0 +1,125 @@
+namespace = upg
+
+#Kingdom of Tuscany
+character_event = {
+	id = upg.0
+	title = "EVTTITLE_upg"
+	desc = "EVTDESC_upg.0"
+	picture = GFX_evt_courier
+	sound = church_bells
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = "EVTOPTA_upg"
+		set_character_flag = centralize_without_penalties
+		k_ktuscany = {
+			hidden_tooltip = {
+				copy_title_laws = k_tuscany
+			}
+			gain_title = ROOT				
+			clr_character_flag = centralize_without_penalties
+		}
+		hidden_tooltip = {
+			any_playable_ruler = {
+			  any_realm_character = {
+					limit = {
+						has_claim = k_tuscany
+					}
+					add_pressed_claim = k_ktuscany
+					remove_claim = k_tuscany
+				}
+			}			
+			k_tuscany = {
+					any_de_jure_vassal_title = {
+						de_jure_liege = k_ktuscany
+					}
+				destroy_landed_title = yes 
+			}
+		}
+	}
+}
+	
+
+#Kingdom of Austria
+character_event = {
+	id = upg.1
+	title = "EVTTITLE_upg"
+	desc = "EVTDESC_upg.1"
+	picture = GFX_evt_courier
+	sound = church_bells
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = "EVTOPTA_upg"
+			set_character_flag = centralize_without_penalties
+			k_kaustria = {
+				hidden_tooltip = {
+					copy_title_laws = k_austria
+				}
+				gain_title = ROOT				
+			}
+			clr_character_flag = centralize_without_penalties
+			hidden_tooltip = {
+				any_playable_ruler = {
+				  any_realm_character = {
+						limit = {
+							has_claim = k_austria
+						}
+						add_pressed_claim = k_kaustria
+						remove_claim = k_austria
+					}
+				}			
+				k_austria = {
+						any_de_jure_vassal_title = {
+							de_jure_liege = k_kaustria
+						}
+					destroy_landed_title = yes 
+				}
+			}
+	}
+}
+
+#Kingdom of Luxembourg
+character_event = {
+	id = upg.2
+	title = "EVTTITLE_upg"
+	desc = "EVTDESC_upg.2"
+	picture = GFX_evt_courier
+	sound = church_bells
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = "EVTOPTA_upg"
+		set_character_flag = centralize_without_penalties
+		k_kluxembourg = {
+			hidden_tooltip = {
+				copy_title_laws = k_luxembourg
+			}
+			gain_title = ROOT				
+		}
+		clr_character_flag = centralize_without_penalties
+		hidden_tooltip = {
+			any_playable_ruler = {
+			  any_realm_character = {
+					limit = {
+						has_claim = k_luxembourg
+					}
+					add_pressed_claim = k_kluxembourg
+					remove_claim = k_luxembourg
+				}
+			}		
+			k_luxembourg = {
+				any_de_jure_vassal_title = {
+					de_jure_liege = k_kluxembourg
+				}
+				destroy_landed_title = yes 
+			}
+		}
+	}
+}
