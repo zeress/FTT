@@ -1,14 +1,10 @@
-1000083000 = {
-	name="Rashidun"
-	culture = bedouin_arabic
-}
 1000083001 = {
 	name="Amali"
-	culture = norse
+	culture = visigothic
 }
 1000083002 = {
 	name="Balti"
-	culture = norse
+	culture = visigothic
 }
 1000083003 = {
 	name="Merovingian"
@@ -16,7 +12,7 @@
 }
 1000083004 = {
 	name="Liuvigild"
-	culture = norse
+	culture = visigothic
 }
 1000083005 = {
 	name="Hunfriding" #aka Burcharding or Bouchardid
@@ -24,5 +20,5 @@
 }
 1000083006 = {
 	name="Kinthaswinth"
-	culture = norse
+	culture = visigothic
 }

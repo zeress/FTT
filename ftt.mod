@@ -1,4 +1,4 @@
-name = "FTT 1.37 for CK2 2.2.0"
+name = "FTT 1.38 for CK2 2.2.0.2"
 path = "mod/FTT"
 tags=
 {
