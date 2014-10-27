@@ -39,6 +39,8 @@ e_outremer;Outremer Empire;Empire d'Outre-mer;Kreuzfahrerkaiserreich;;;;;;;;;;;x
 e_outremer_adj;Outremer;Ultramarin;Outremerisch;;;;;;;;;;;x;
 e_romania;Romanian Empire;Empire Roumain;Rumänisches Kaiserreich;;;;;;;;;;;x;
 e_romania_adj;Romanian;Roumain;Rumänisch;;;;;;;;;;;x;
+e_seleucid;Seleucid Empire;Seleucid Empire;Seleucid Empire;;Seleucid Empire;;;;;;;;;;
+e_seleucid_adj;Seleucid;Seleucid;Seleucid;;Seleucid;;;;;;;;;;
 e_slavic;Slavic Empire;Slavic Empire;Slavic Empire;;Slavic Empire;;;;;;;;;;
 e_slavic_ajc;Slavic;Slavic;Slavic;;Slavic;;;;;;;;;;
 ftt_ai;Toggle AI Interaction with FTT;Toggle AI Interaction with FTT;Toggle AI Interaction with FTT;;Toggle AI Interaction with FTT;;;;;;;;;;

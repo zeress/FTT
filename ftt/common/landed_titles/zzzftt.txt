@@ -997,7 +997,6 @@ e_slavic = {
 	color={ 255 170 0 }
 	capital = 434 # Lower Silesia
 	creation_requires_capital = no
-	
 	short_name = yes
 	
 	allow = {		
@@ -1045,4 +1044,30 @@ k_athenai = {
 		}
 	}
 	dignity = 10
-}	
+}
+e_seleucid = {
+	color={ 156 42 152 }
+	
+	capital = 693 #Baghdad
+	culture = greek
+	short_name = yes
+	
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
+		war = no
+		NOT = { tier = EMPEROR }
+		culture = greek
+		OR = {
+			realm_size = 180
+			e_seleucid = { OR = { is_titular = no has_holder = yes } }
+		}
+	}	
+}
