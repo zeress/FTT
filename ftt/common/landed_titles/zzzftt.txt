@@ -10,12 +10,21 @@ e_dutch = {
 	
 	creation_requires_capital = no
 	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
-		not = { tier = emperor }
+		NOT = { tier = EMPEROR }
 		culture = dutch
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_dutch = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	
@@ -29,12 +38,21 @@ e_norman = {
 	
 	creation_requires_capital = no
 	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		not = { tier = emperor }
 		culture = norman
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_norman = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	
@@ -48,12 +66,21 @@ e_breton = {
 	
 	creation_requires_capital = no
 	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		not = { tier = emperor }
 		culture = breton
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_breton = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	
@@ -63,12 +90,21 @@ e_maghreb = {
 	color2={ 255 255 255 }
 	
 	capital = 843 # Marrakech
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		not = { tier = emperor }
 		culture = maghreb_arabic
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_maghreb = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	
@@ -83,7 +119,16 @@ e_north_sea = {
 	color={ 35 75 233 }
 	capital = 32 #Middlesex
 	culture = norwegian
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		not = { tier = emperor }
 		OR = {
@@ -91,7 +136,7 @@ e_north_sea = {
 			culture = norse
 		}
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_north_sea = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
@@ -103,7 +148,16 @@ e_outremer = {
 
 	capital = 774 # Jerusalem			
 
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		not = { tier = emperor }
 		OR = {
@@ -111,7 +165,7 @@ e_outremer = {
 			is_heresy_of = catholic
 		}
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_outremer = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
@@ -126,11 +180,20 @@ e_danubia = {
 	color2={ 255 255 255 }
 
 	capital	= 499 #Turnovo
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		not = { tier = emperor }
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_danubia = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
@@ -140,11 +203,20 @@ e_syria = {
 	color = { 204 51 51  }
 	color2={ 255 255 255 }
 	capital	= 728 #Damascus
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		not = { tier = emperor }
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_syria = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	
@@ -154,11 +226,20 @@ e_ethiopia = {
 	color={ 198 30 93 }
 	color2={ 255 255 255 }
 	capital = 883 #Gonder
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		not = { tier = emperor }
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_ethiopia = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
@@ -168,7 +249,16 @@ k_dublin = {
 	color = { 205 247 217 }
 	capital = 11 # Dublin
 	culture = danish
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			AND = {
 				independent = yes
@@ -186,7 +276,16 @@ k_visigoth = {
 	color = { 210 2 217 }
 	capital = 214 # Toulouse
 	culture = visigothic
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -201,7 +300,16 @@ k_iraq = {
 	capital = 693 # Baghdad
 	culture = levantine_arabic
 	#dynasty_title_names = no
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -216,7 +324,16 @@ k_jordan = {
 	capital = 724 # Amman
 	culture = levantine_arabic
 	#dynasty_title_names = no
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -231,7 +348,16 @@ k_badawi = {
 	color={ 234 255 0 }
 	capital = 863 # Hajr
 	culture = levantine_arabic
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -245,7 +371,16 @@ k_belgium = {
 	color={ 214 100 6 }
 	capital = 117 # Brabant
 	culture = dutch
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -259,7 +394,16 @@ k_marino = {
 	color = { 0  128  255 }
 	capital = 329 # Urbino
 	culture = italian	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			AND = {
 				is_republic = yes
@@ -276,7 +420,16 @@ k_lucca = {
 	color = { 0  255  115 }
 	capital = 323 # Lucca
 	culture = italian	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			is_republic = yes
 			k_lucca = { OR = { is_titular = no has_holder = yes } }
@@ -288,7 +441,16 @@ k_illyria = {
 	color = { 106  28  133 }
 	capital = 456 # Karnten
 	culture = german	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -303,7 +465,16 @@ k_bahrain = {
 	capital = 653 # Bahrein
 	culture = bedouin_arabic
 	#dynasty_title_names = no
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -321,7 +492,16 @@ k_romania = {
 	capital = 514 #Turnu
 	culture = romanian
 
-		allow = {
+		allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -337,7 +517,16 @@ d_gothia = {
 	color={ 29 89 152 }
 	capital = 212 # Narbonne
 	culture = occitan
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			culture = frankish
 			culture = occitan
@@ -358,7 +547,16 @@ k_ktuscany = {
 	color={ 244 227 160 }
 	capital = 328 # Firenze
 	culture = italian
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		k_ktuscany = { OR = { is_titular = no has_holder = yes } }
 	}
 	dignity = 10
@@ -368,7 +566,16 @@ k_kaustria = {
 	color = { 224 67 46 }
 	capital = 449 # Osterreich
 	culture = german
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		k_kaustria = { OR = { is_titular = no has_holder = yes } }
 	}
 	dignity = 10
@@ -378,7 +585,16 @@ k_kluxembourg = {
 	color = { 0 150 255 }
 	capital = 115 # Luxembourg
 	culture = german
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		k_kluxembourg = { OR = { is_titular = no has_holder = yes } }
 	}
 	dignity = 10
@@ -387,7 +603,16 @@ k_tuscany = {
 	color = { 251  255  0 }
 	capital = 328 # Firenze
 	culture = italian	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		k_ktuscany = { is_titular = yes }
 		k_ktuscany = { has_holder = no }
 		OR = {
@@ -408,7 +633,16 @@ k_austria = {
 	color = { 0 255 238 }
 	capital = 449 # Osterreich
 	culture = german
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		k_kaustria = { is_titular = yes }
 		k_kaustria = { has_holder = no}
 		OR = {
@@ -428,7 +662,16 @@ k_luxembourg = {
 	color = { 210 100 100 }
 	capital = 115 # Luxembourg
 	culture = german
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		k_kluxembourg = { is_titular = yes }
 		k_kluxembourg = { has_holder = no}
 		OR = {
@@ -449,7 +692,16 @@ k_yugoslavia= {
 
 	capital = 505 # Belgrade
 	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -465,7 +717,16 @@ k_sami = {
 	capital = 386 # Kemi
 	tribe = yes
 	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			AND = {
 				culture = lappish
@@ -489,7 +750,16 @@ e_carthage = {
 	culture = maghreb_arabic
 	#dynasty_title_names = no
 	short_name = yes
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			AND = {
 				NOT = {
@@ -507,7 +777,16 @@ e_gaul = {
 	capital = 119 # Koln
 	culture = frankish
 	short_name = yes
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			AND = {
 				NOT = {
@@ -523,7 +802,16 @@ k_wurttemberg = {
 	color = { 252 224 101 }
 	capital = 253 #Württemberg
 	culture = german
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -537,7 +825,16 @@ k_tnetherlands = {
 	color = { 0 54 182 }
 	capital = 80 #Holland
 	culture = dutch
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -554,7 +851,16 @@ k_macedonia = {
 	color = { 210 0 0 }
 	capital = 492 #Strymon
 	culture = greek
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -564,12 +870,20 @@ k_macedonia = {
 	}
 	dignity = 10
 }
-
 k_albania = {
 	color = { 228 30 32 }
 	capital = 470 #Dyrrachion
 	culture = serbian
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -579,13 +893,21 @@ k_albania = {
 	}
 	dignity = 10
 }
-
 k_sparta = {
 	color = { 228 30 32 }
 	capital = 478 #Monemvasia
 	culture = greek
 	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -595,15 +917,21 @@ k_sparta = {
 	}
 	dignity = 10
 }
-
-# v1.30
-
 k_roma = {
 	color = { 245 102 97 }
 	capital = 333 #Roma
 	culture = italian
 	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -617,7 +945,16 @@ k_morea = {
 	color = { 54  167  156 }
 	capital = 481 #Korinthos
 	culture = greek
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		OR = {
 			NOT = {
 				num_of_king_titles = 2
@@ -635,12 +972,21 @@ e_celtic = {
 	
 	creation_requires_capital = no
 	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		not = { tier = emperor }
 		culture_group = celtic
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_celtic = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	
@@ -652,11 +998,20 @@ e_common = {
 	short_name = yes
 	
 	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		not = { tier = emperor }
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_common = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	
@@ -668,12 +1023,21 @@ e_jewish = {
 	
 	short_name = yes
 	
-	allow = {
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
 		war = no
 		religion_group = jewish_group
 		not = { tier = emperor }
 		OR = {
-			realm_size = 150
+			realm_size = 180
 			e_jewish = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	

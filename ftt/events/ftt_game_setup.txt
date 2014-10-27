@@ -1,0 +1,17 @@
+namespace = ftt_setup
+character_event = {
+	id = ftt_setup.0
+	desc = "EVTDESC_ftt_setup.0"
+	picture = GFX_evt_emissary
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = "Yes"
+		set_global_flag = ftt_ai
+	}
+	option = {
+		name = "No"
+	}	
+}
