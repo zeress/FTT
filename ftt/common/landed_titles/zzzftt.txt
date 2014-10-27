@@ -712,10 +712,8 @@ e_carthage = {
 			}
 		}
 		OR = {
-			AND = {
-				NOT = {
-					tier = EMPEROR
-				}
+			NOT = {
+				tier = EMPEROR
 			}
 			e_carthage = { OR = { is_titular = no has_holder = yes } }
 		}
@@ -739,10 +737,8 @@ e_gaul = {
 			}
 		}
 		OR = {
-			AND = {
-				NOT = {
-					tier = EMPEROR
-				}
+			NOT = {
+				tier = EMPEROR
 			}
 			e_gaul = { OR = { is_titular = no has_holder = yes } }
 		}

@@ -19,8 +19,8 @@ character_event = {
 				copy_title_laws = k_tuscany
 			}
 			gain_title = ROOT				
-			clr_character_flag = centralize_without_penalties
 		}
+		clr_character_flag = centralize_without_penalties		
 		hidden_tooltip = {
 			any_playable_ruler = {
 			  any_realm_character = {
