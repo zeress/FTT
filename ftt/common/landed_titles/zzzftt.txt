@@ -1,81 +1,6 @@
 #CK2+ Empires, Thanks Wiz!
 # TITULAR EMPIRES
-e_sweden = {
-	color={ 62 142 209 }
-	color2={ 255 255 0 }
-	capital = 290 # Uppland
-	culture = swedish
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = swedish
-		OR = {
-			realm_size = 150
-			e_sweden = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_denmark = {
-	color={ 247 77 54 }
-	color2={ 156 117 23 }	
-	capital = 266 # Sjaelland
-	culture = danish
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = danish
-		OR = {
-			realm_size = 150
-			e_denmark = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_norway = {
-	color={ 150 150 170 }
-	color2={ 220 220 220 }
-	capital = 274 # Bergenshus
-	culture = norwegian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = norwegian
-		OR = {
-			realm_size = 150
-			e_norway = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_iceland = {
-	color={ 225 225 225 }
-	color2={ 220 220 220 }
-	capital = 1 #Vestisland
-	culture = norwegian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = norwegian
-		OR = {
-			realm_size = 150
-			e_iceland = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
+
 e_dutch = {
 	color={ 190 155 155 }
 	color2={ 255 255 255 }
@@ -114,86 +39,6 @@ e_norman = {
 		}
 	}	
 }
-e_sicily = {
-	color={ 205 250 50 }
-	color2={ 255 255 255 }
-	capital = 340 #Palermo
-	culture = norman
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		OR = {
-			culture = italian
-			culture = greek
-			culture = norman
-		}
-		OR = {
-			realm_size = 150
-			e_sicily = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_armenia = {
-	color={ 135 35 201 }
-	color2={ 255 255 255 }
-	capital = 681 #	Ani
-	culture = armenian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = armenian
-		OR = {
-			realm_size = 150
-			e_armenia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_alan = {
-	color={ 135 128 128 }
-	color2={ 255 255 255 }
-	capital = 603 # Alania
-	culture = alan
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = alan 
-		OR = {
-			realm_size = 150
-			e_alan = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_georgia = {
-	color={ 102 10 108 }
-	color2={ 255 255 255 }
-	capital = 679 # Kartli
-	culture = georgian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = georgian
-		OR = {
-			realm_size = 150
-			e_georgia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
 e_breton = {
 	color={ 155 55 205 }
 	color2={ 255 255 255 }
@@ -212,487 +57,6 @@ e_breton = {
 			e_breton = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	
-}
-e_prussia = {
-	color={ 131 176 209 }
-	color2={ 255 255 255 }
-	capital = 370 # Marienburg
-	culture = prussian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = prussian
-		OR = {
-			realm_size = 150
-			e_prussia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_khazaria = {
-	color={ 22 102 225 }
-	color2={ 255 255 255 }
-	capital = 620 #	Itil
-	culture = khazar
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = khazar
-		OR = {
-			realm_size = 150
-			e_khazaria = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_steppe_wolfe = {
-	color={ 118 118 118 }
-	color2={ 255 255 255 }
-	capital = 598 #historical capital fanagoria, 4th rome
-	culture = bolghar
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		OR = {
-			culture = bolghar
-			culture = bulgarian
-		}
-		610 = {
-			owner = {
-				OR = {
-					character = ROOT
-					same_realm = ROOT
-				}
-			}
-		}
-		499 = {
-			owner = {
-				OR = {
-					character = ROOT
-					same_realm = ROOT
-				}
-			}
-		}
-	}	
-}
-e_bulgar = {
-	color={ 223 208 23 }
-	color2={ 255 255 255 }
-	capital = 610 # Bulgar
-	culture = bolghar
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }	
-		culture = bolghar	
-		OR = {
-			realm_size = 150
-			e_bulgar = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_bohemia = {
-        color={ 185 125 45 }
-        color2={ 255 255 255 }
-        capital = 437 # Praha
-	culture = bohemian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = bohemian
-		OR = {
-			realm_size = 150
-			e_bohemia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_croatia = {
-	color={ 205 185 205 }
-	color2={ 200 0 0 }
-	capital = 465 # Zadar	
-	culture = croatian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = croatian
-		OR = {
-			realm_size = 150
-			e_croatia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_serbia = {
-	color={ 126 98 98 }
-	color2={ 255 255 255 }	
-	capital = 502 # Rashka
-	culture = serbian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = serbian
-		OR = {
-			realm_size = 150
-			e_serbia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_romania = {
-	color = { 209 209 60 }
-	color2={ 255 255 255 }
-	capital = 512 #Belgorod
-	culture = romanian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = romanian
-		OR = {
-			realm_size = 150
-			e_romania = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_bulgaria = {
-	color={ 113 98 121 }
-	color2={ 255 255 255 }
-	capital = 499 # Tyrnovo
-	culture = bulgarian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = bulgarian
-		OR = {
-			realm_size = 150
-			e_bulgaria = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_nubia = {
-	color = { 172 161 56 }
-	color2={ 255 255 255 }
-	capital = 793 # Makuria
-	culture = ethiopian
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = ethiopian
-		OR = {
-			realm_size = 150
-			e_nubia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_pecheneg = {
-	color = { 173 150 43 }
-	color2 = { 0 128 128 }
-	capital = 545 # Torki
-	culture = pecheneg
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = pecheneg
-		OR = {
-			realm_size = 150
-			e_pecheneg = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_cuman = {
-	color={ 250 184 31 }
-	color2={ 255 255 20 }
-	capital = 619 #Saray
-	culture = cuman
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = cuman
-		OR = {
-			realm_size = 150
-			e_cuman = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_occitan = {
-	color={ 74 50 246 }
-	color2={ 255 255 20 }
-	capital = 149 # Bordaeux
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = occitan 
-		OR = {
-			realm_size = 150
-			e_occitan = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	short_name = yes
-	
-	creation_requires_capital = no
-	culture = occitan	
-}
-e_poland = {
-	color={ 120 53 53 }
-	color2={ 200 0 0 }
-	
-	capital = 527 # Krakowskie
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = polish
-		OR = {
-			realm_size = 150
-			e_poland = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	culture = polish
-	short_name = yes
-	
-	creation_requires_capital = no	
-}
-e_hungary = {
-	color={ 187 70 70 }
-	color2={ 255 255 255 }
-	
-	capital	= 444 # Esztergom
-		
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture_group = magyar
-		OR = {
-			realm_size = 150
-			e_hungary = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-	culture = hungarian
-	short_name = yes
-	
-	creation_requires_capital = no	
-}
-e_ireland = {
-	color={ 16 107 2 }
-	color2={ 185 48 15 }
-	
-	capital = 11 #Dublin
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = irish
-		OR = {
-			realm_size = 150
-			e_ireland = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	culture = irish
-	short_name = yes
-	
-	creation_requires_capital = no	
-}
-e_cornwall = {
-	color = { 195 65 15 }
-	color2={ 185 48 15 }	
-	capital = 31 # Cornwall
-	culture = breton
-	
-	irish = "Dumnonia"
-	scottish = "Dumnonia"
-	welsh = "Dumnonia"
-	breton = "Dumnonia"
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = breton
-		OR = {
-			realm_size = 150
-			e_cornwall = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	short_name = yes
-	
-	creation_requires_capital = no	
-}
-e_wales = {
-	color={ 155 25 3 }
-	color2={ 255 255 255 }
-	capital = 64 # Gwynedd
-	
-	culture = welsh
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = welsh
-		OR = {
-			realm_size = 150
-			e_wales = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	short_name = yes
-	
-	creation_requires_capital = no	
-}
-e_england = {
-	color={ 142 36 36 }
-	color2={ 255 255 255 }
-	capital = 32 # Middlesex
-	allow = {
-		war = no
-		not = { tier = emperor }
-		OR = {
-			culture = saxon
-			culture = english
-		}
-		OR = {
-			realm_size = 150
-			e_england = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	culture = english
-	short_name = yes
-	
-	creation_requires_capital = no	
-}
-e_scotland = {
-	color={ 179 195 12 }
-	color2={ 255 255 255 }
-	
-	capital = 43 #Gowrie
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = scottish
-		OR = {
-			realm_size = 150
-			e_scotland = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	culture = scottish
-	short_name = yes
-	
-	creation_requires_capital = no	
-}
-e_lithuania = {
-	color={ 125 175 6 }
-	color2={ 185 48 15 }
-	
-	capital = 420 # Aukshayts
-	allow = {
-		war = no
-		not = { tier = emperor }
-		OR = {
-			culture = lithuanian
-			culture = lettigallish
-		}
-		OR = {
-			realm_size = 150
-			e_lithuania = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	culture = lithuanian
-	short_name = yes
-	
-	creation_requires_capital = no	
-}
-e_egypt = {
-	color={ 45 245 200 }
-	color2={ 255 255 255 }
-	
-	capital	= 796 # Cairo
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = egyptian_arabic
-		OR = {
-			realm_size = 150
-			e_egypt = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	culture = egyptian_arabic
-	short_name = yes
-	
-	creation_requires_capital = no	
-}
-e_finland = {
-	color={ 180 95 95 }
-	capital = 381 # Uusimaa
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture_group = finno_ugric
-		OR = {
-			realm_size = 150
-			e_finland = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	culture = finnish
-	short_name = yes
-	
-	creation_requires_capital = no	
-}	
-e_ottoman = {
-	color = { 247 145 30 }
-	culture = turkish
-	capital = 496 #constantinople
-	short_name = yes
-	
-	creation_requires_capital = no
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = turkish
-		OR = {
-			realm_size = 150
-			e_ottoman = { OR = { is_titular = no has_holder = yes } }
-		}
-	}		
 }
 e_maghreb = {
 	color = { 220  202  96 } 
@@ -755,23 +119,6 @@ e_outremer = {
 	
 	culture = frankish
 }
-e_andalusia = {
-	color = { 201  191  122 }
-	capital = 181 #Cordoba
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		culture = andalusian_arabic
-		OR = {
-			realm_size = 150
-			e_andalusia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	culture = andalusian_arabic
-	short_name = yes
-	#dynasty_title_names = no
-}
 
 #region-based (available to everyone)
 e_danubia = {
@@ -817,208 +164,6 @@ e_ethiopia = {
 	}
 	short_name = yes	
 }
-
-# v1.00	
-
-k_prussia = {
-	color={ 121 146 209 }
-	capital = 370 # Marienburg
-	culture = german
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_prussia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}	
-
-# v1.01
-
-k_cornwall = {
-	color = { 204 153 20 }
-	capital = 31 # Cornwall
-	culture = breton
-	
-	irish = "Dumnonia"
-	scottish = "Dumnonia"
-	welsh = "Dumnonia"
-	breton = "Dumnonia"
-	
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_cornwall = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_of_mann_and_the_isles = {
-	color={ 173 0 0 }
-	capital = 54 # Isle of Man
-	culture = norse
-	
-	norwegian = "Søreyar"
-	danish = "Søreyar"
-	swedish = "Söröarna"
-	norse = "Suðreyjar"
-	
-	pagan_coa = {
-		template = 0
-		layer = {
-			texture = 2
-			texture_internal = 8
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-		religion = "norse_pagan"
-	}
-	
-	allow = {
-		OR = {
-			AND = {
-				independent = yes
-				NOT = {
-					num_of_king_titles = 1
-					tier = emperor
-				}
-			}
-			k_of_mann_and_the_isles = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_iceland = {
-	color={ 195 190 255 }
-	capital = 1 # Vestisland
-	culture  = norwegian
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_iceland = { OR = { is_titular = no has_holder = yes } }
-		}		
-	}
-	dignity = 10	
-}
-
-# v1.02
-
-k_mallorca = {
-	color = { 70 130 75 }
-	capital = 827 # Mallorca
-	culture = catalan
-	#dynasty_title_names = no
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_mallorca = { OR = { is_titular = no has_holder = yes } }
-		}	
-	}
-	dignity = 10
-}
-
-# v1.03
-
-k_mercia = {
-	color={ 255 251 0 }
-	capital = 63 # Derby
-	culture = saxon
-	allow = {
-		OR = {
-			AND = {
-				independent = yes
-				NOT = {
-					num_of_king_titles = 1
-				}
-			}
-			k_mercia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_northumbria = {
-	color={ 227 199 41 }
-	capital = 57 # York
-	culture = saxon
-	allow = {
-		OR = {
-			AND = {
-				independent = yes
-				NOT = {
-					num_of_king_titles = 1
-					tier = emperor
-				}
-			}
-			k_northumbria = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_york = {
-	color={ 173 121 121 }
-	capital = 57 # York
-	culture = danish
-	
-	danish = "Jórvík"
-	swedish = "Jórvík"
-	norwegian = "Jórvík"
-	norse = "Jórvík"
-	
-	pagan_coa = {
-		template = 0
-		layer = {
-			texture = 2
-			texture_internal = 12
-			emblem = 0
-			color = 0
-			color = 0
-			color = 0
-		}
-		religion = "norse_pagan"
-	}
-	
-	allow = {
-		OR = {
-			NOT = { num_of_king_titles = 1 }
-			k_york = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_wessex = {
-	color={ 201 6 195 }
-	capital = 26 # Winchester
-	culture = saxon
-	allow = {
-		OR = {
-			AND = {
-				independent = yes
-				NOT = {
-					num_of_king_titles = 1
-					tier = emperor
-				}
-			}
-			k_wessex = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
 k_dublin = {
 	color = { 205 247 217 }
 	capital = 11 # Dublin
@@ -1037,13 +182,10 @@ k_dublin = {
 	}
 	dignity = 10
 }
-
-# v1.04
-
 k_visigoth = {
 	color = { 210 2 217 }
 	capital = 214 # Toulouse
-	culture = occitan
+	culture = visigothic
 	allow = {
 		OR = {
 			NOT = {
@@ -1054,42 +196,6 @@ k_visigoth = {
 	}
 	dignity = 10	
 }
-
-# v1.05
-
-k_algarve = {
-	color = { 54 167 156 }
-	capital = 162 # Silves
-	culture = portuguese
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_algarve = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_oman = {
-	color = { 255 0 0 }
-	capital = 868 # Muscat
-	culture = bedouin_arabic
-	#dynasty_title_names = no
-	
-	allow = {
-
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_oman = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
 k_iraq = {
 	color={ 0 204 85 }
 	capital = 693 # Baghdad
@@ -1105,7 +211,6 @@ k_iraq = {
 	}
 	dignity = 10
 }
-
 k_jordan = {
 	color={ 89 172 235 }
 	capital = 724 # Amman
@@ -1121,30 +226,11 @@ k_jordan = {
 	}
 	dignity = 10
 }
-
-k_lahej = {
-	color={ 0 250 142 }
-	capital = 858 # Aden
-	culture = levantine_arabic
-	#dynasty_title_names = no
-	
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_lahej = { OR = { is_titular = no has_holder = yes } }
-		}				
-	}
-	dignity = 10
-}
-
 k_badawi = {
 	short_name = yes
 	color={ 234 255 0 }
 	capital = 863 # Hajr
 	culture = levantine_arabic
-	#dynasty_title_names = no
 	allow = {
 		OR = {
 			NOT = {
@@ -1155,7 +241,6 @@ k_badawi = {
 	}
 	dignity = 10	
 }
-
 k_belgium = {
 	color={ 214 100 6 }
 	capital = 117 # Brabant
@@ -1170,104 +255,6 @@ k_belgium = {
 	}
 	dignity = 10
 }
-
-# v1.07
-
-k_sardinia = {
-	color={ 255 221 0 }
-	capital = 326 # Cagliari
-	culture = italian
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_sardinia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}	
-
-# v1.09
-
-k_anglia = {
-	color={ 20 72 255 }
-	capital = 71 # Suffolk
-	culture = saxon
-	allow = {
-		OR = {
-			AND = {
-				independent = yes
-				NOT = {
-					num_of_king_titles = 1
-					tier = emperor
-				}
-			}
-			k_anglia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_kent = {
-	color={ 115 42 199 }
-	capital = 73 # Kent
-	culture = saxon
-	allow = {
-		OR = {
-			AND = {
-				independent = yes
-				NOT = {
-					num_of_king_titles = 1
-					tier = emperor
-				}
-			}
-			k_kent = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_sussex = {
-	color={ 0 221 255 }
-	capital = 25 # Sussex
-	culture = saxon
-	allow = {
-		OR = {
-			AND = {
-				independent = yes
-				NOT = {
-					num_of_king_titles = 1
-					tier = emperor
-				}
-			}
-			k_sussex = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_essex = {
-	color = { 91 60 24 }
-	capital = 72 # Essex
-	culture = saxon
-	allow = {
-		OR = {
-			AND = {
-				independent = yes
-				NOT = {
-					num_of_king_titles = 1
-					tier = emperor
-				}
-			}
-			k_essex = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-# v1.10
-
 k_marino = {	
 	color = { 0  128  255 }
 	capital = 329 # Urbino
@@ -1285,7 +272,6 @@ k_marino = {
 	}
 	dignity = 10
 }
-
 k_lucca = {	
 	color = { 0  255  115 }
 	capital = 323 # Lucca
@@ -1298,41 +284,6 @@ k_lucca = {
 	}
 	dignity = 10
 }
-
-k_strath = {
-	color = { 0  100  55 }
-	capital = 47 # Clydesdale
-	culture = breton	
-	allow = {
-		OR = {
-			AND = {
-				independent = yes
-				NOT = {
-					num_of_king_titles = 1
-					tier = emperor
-				}
-			}
-			k_strath = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_epirus = {
-	color = { 86  100  100 }
-	capital = 473 # Arta
-	culture = greek	
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_epirus = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
 k_illyria = {
 	color = { 106  28  133 }
 	capital = 456 # Karnten
@@ -1347,7 +298,6 @@ k_illyria = {
 	}
 	dignity = 10
 }
-
 k_bahrain = {
 	color = { 108  21  124 }
 	capital = 653 # Bahrein
@@ -1363,25 +313,6 @@ k_bahrain = {
 	}
 	dignity = 10
 }
-
-k_franks = {
-	color = { 106  0  255 }
-	capital = 112 # Ile de France
-	culture = frankish
-	creation_requires_capital = no
-	
-	allow = {
-		culture = frankish
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_franks = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
 # v1.11
 
 k_romania = {
@@ -1402,9 +333,6 @@ k_romania = {
 	dignity = 10
 
 }
-
-# v1.14
-
 d_gothia = {
 	color={ 29 89 152 }
 	capital = 212 # Narbonne
@@ -1455,7 +383,6 @@ k_kluxembourg = {
 	}
 	dignity = 10
 }		
-
 k_tuscany = {	
 	color = { 251  255  0 }
 	capital = 328 # Firenze
@@ -1477,7 +404,6 @@ k_tuscany = {
 	title_female = "GRANDDUCHESS"
 	foa = "GRANDDUKE_FOA_TUSCANY"
 }
-
 k_austria = {
 	color = { 0 255 238 }
 	capital = 449 # Osterreich
@@ -1498,7 +424,6 @@ k_austria = {
 	title = "ARCHDUKE"
 	title_female = "ARCHDUCHESS"
 }
-
 k_luxembourg = {
 	color = { 210 100 100 }
 	capital = 115 # Luxembourg
@@ -1519,48 +444,9 @@ k_luxembourg = {
 	title = "GRANDDUKE"
 	title_female = "GRANDDUCHESS"
 }
-
-# v1.16
-
-e_austria = {
-	color = { 178 21 26 }
-	culture = german
-	capital = 449 #Osterreich
-	short_name = yes
-	allow = {
-		OR = {
-			AND = {
-				
-				ai = no
-				NOT = {
-					tier = EMPEROR
-				}
-			}
-			e_austria = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_slavonia= {
-	color = { 87 108 155 }
-	culture = croatian
-	capital = 462 # Krizevci
-	
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_slavonia = { OR = { is_titular = no has_holder = yes } }
-		}		
-	}
-	dignity = 10
-}
-
 k_yugoslavia= {
 	color = { 221 0 0 }
-	culture = serbian
+
 	capital = 505 # Belgrade
 	
 	allow = {
@@ -1573,9 +459,6 @@ k_yugoslavia= {
 	}
 	dignity = 10
 }
-
-# v1.20
-
 k_sami = {
 	color = { 11 80 139 }
 	culture = lappish
@@ -1600,55 +483,6 @@ k_sami = {
 	foa = "HEAD_CHIEF_FOA"
 	title_prefix = "UNIFIED_TRIBES_OF"	
 }
-
-k_krete = {
-	color = { 255 0 0 }
-	culture = greek
-	capital = 479 # Kaneia
-	
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_krete = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-# v1.21
-
-k_provence = {
-	color = { 90 189 250 }
-	capital = 221 # Provence
-	culture = occitan
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_provence = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
-k_uburgundy = {
-	color = { 250 54 98 }
-	capital = 239 # Geneve
-	culture = frankish
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_uburgundy = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
 e_carthage = {
 	color = { 35 177 77 }
 	capital = 817 # Tunis
@@ -1658,8 +492,6 @@ e_carthage = {
 	allow = {
 		OR = {
 			AND = {
-				
-				ai = no
 				NOT = {
 					tier = EMPEROR
 				}
@@ -1678,8 +510,6 @@ e_gaul = {
 	allow = {
 		OR = {
 			AND = {
-				
-				ai = no
 				NOT = {
 					tier = EMPEROR
 				}
@@ -1689,109 +519,6 @@ e_gaul = {
 	}
 	dignity = 10
 }
-
-
-k_thessa = {
-	color = { 0 115 255 }
-	capital = 490 # Thessalonike
-	culture = greek
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_thessa = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-
-	dignity = 10
-}
-
-k_antioch = {
-	color = { 255 255 0 }
-	capital = 764 #Antioch
-	culture = greek
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_antioch = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-
-	dignity = 10
-}
-
-k_swiss = {
-	color = { 250 0 0 }
-	capital = 245 #Schwyz
-	culture = german
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_swiss = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-
-	dignity = 5
-}
-
-k_scania = {
-	color = { 0 255 234 }
-	capital = 303 # Skåne
-	culture = swedish
-	
-	swedish = "Skåne"
-	danish = "Skåne"
-	norwegian = "Skåne"
-	norse = "Skåne"
-	
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_scania = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-
-	dignity = 10
-}
-
-k_edessa = {
-	color = { 255 119 0 }
-	capital = 699 #Edessa
-	culture = greek
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_edessa = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-
-	dignity = 10
-}	
-
-k_gascony = {
-	color = { 106 255 0 }
-	capital = 209 #Armagnac
-	culture = occitan
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_gascony = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}			
-
 k_wurttemberg = {
 	color = { 252 224 101 }
 	capital = 253 #Württemberg
@@ -1806,22 +533,6 @@ k_wurttemberg = {
 	}
 	dignity = 10
 }
-
-k_livonia = {
-	color = { 252 224 101 }
-	capital = 374 #Zemigalians
-	culture = german
-	allow = {
-		OR = {
-			NOT = {
-				num_of_king_titles = 2
-			}
-			k_livonia = { OR = { is_titular = no has_holder = yes } }
-		}
-	}
-	dignity = 10
-}
-
 k_tnetherlands = {
 	color = { 0 54 182 }
 	capital = 80 #Holland
@@ -1902,8 +613,6 @@ k_roma = {
 	}
 	dignity = 10
 }
-# v1.31
-
 k_morea = {
 	color = { 54  167  156 }
 	capital = 481 #Korinthos
@@ -1918,8 +627,6 @@ k_morea = {
 	}
 	dignity = 10
 }										
-
-#v1.32
 e_celtic = {
 	color={ 0 153 0 }
 	capital = 11 # Dublin
@@ -1938,7 +645,6 @@ e_celtic = {
 		}
 	}	
 }
-#v1.35
 e_common = {
 	color={ 176 81 111 }
 	capital = 529 # Plock
@@ -1952,21 +658,6 @@ e_common = {
 		OR = {
 			realm_size = 150
 			e_common = { OR = { is_titular = no has_holder = yes } }
-		}
-	}	
-}
-e_songhai = {
-	color={ 120 153 20 }
-	capital = 914 # Gao
-	culture = manden
-	
-	
-	allow = {
-		war = no
-		not = { tier = emperor }
-		OR = {
-			realm_size = 150
-			e_songhai = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	
 }
