@@ -1,4 +1,3 @@
-#CK2+ Empires, Thanks Wiz!
 # TITULAR EMPIRES
 
 e_dutch = {
@@ -998,3 +997,56 @@ e_jewish = {
 		}
 	}	
 }
+e_slavic = {
+	color={ 255 170 0 }
+	capital = 434 # Lower Silesia
+	creation_requires_capital = no
+	
+	short_name = yes
+	
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
+		war = no
+		OR = {
+			culture_group = west_slavic
+			culture_group = south_slavic
+			culture_group = east_slavic
+		}
+		not = { tier = emperor }
+		OR = {
+			realm_size = 180
+			e_slavic = { OR = { is_titular = no has_holder = yes } }
+		}
+	}	
+}
+k_athenai = {
+	color = { 0  145  211 }
+	capital = 482 #Atheniai
+	culture = greek
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
+		OR = {
+			NOT = {
+				num_of_king_titles = 2
+			}
+			k_athenai = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	dignity = 10
+}	
