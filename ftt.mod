@@ -1,6 +1,6 @@
-name = "FTT 1.38 for CK2 2.2.0.2"
+name = "Flavourful Titular Titles"
 path = "mod/FTT"
 tags=
 {
-"new nations" flavor flavour titles "new titles" "alt history"}
+"new nations" flavor flavour titles "new titles" "alt history" fantasy}
 picture="ftt.jpg"
