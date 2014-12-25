@@ -1412,3 +1412,39 @@ k_babylon = {
 		}
 	}	
 }
+k_morocco = {
+	color = { 224  146  113 } 
+	color2={ 255 255 255 }
+	
+	capital = 843 # Marrakech	
+	culture = maghreb_arabic
+
+	allow = {		
+		hidden_tooltip = {
+			OR = {
+				AND = {
+					ai = yes
+					has_global_flag = ftt_ai
+				}
+				ai = no
+			}
+		}
+		war = no
+		NOT = { tier = KING }
+
+		OR = {
+			realm_size = 180
+			k_morocco = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}	
+}	
