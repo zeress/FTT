@@ -26,6 +26,16 @@ e_dutch = {
 			realm_size = 180
 			e_dutch = { OR = { is_titular = no has_holder = yes } }
 		}
+	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
+		}
 	}	
 }
 e_norman = {
@@ -53,6 +63,16 @@ e_norman = {
 		OR = {
 			realm_size = 180
 			e_norman = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
 		}
 	}	
 }
@@ -83,6 +103,16 @@ e_breton = {
 			e_breton = { OR = { is_titular = no has_holder = yes } }
 		}
 	}	
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
+		}
+	}	
 }
 e_maghreb = {
 	color = { 220  202  96 } 
@@ -105,6 +135,16 @@ e_maghreb = {
 		OR = {
 			realm_size = 180
 			e_maghreb = { OR = { is_titular = no has_holder = yes } }
+		}
+	}	
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
 		}
 	}	
 	culture = maghreb_arabic
@@ -139,6 +179,16 @@ e_north_sea = {
 			e_north_sea = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
+		}
+	}	
 	short_name = yes
 }
 e_outremer = {
@@ -171,6 +221,16 @@ e_outremer = {
 			e_outremer = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
+		}
+	}	
 	short_name = yes
 	
 	culture = frankish
@@ -199,6 +259,16 @@ e_danubia = {
 			e_danubia = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
+		}
+	}	
 	short_name = yes	
 }
 k_dublin = {
@@ -226,6 +296,16 @@ k_dublin = {
 			k_dublin = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}	
 	dignity = 10
 }
 k_visigoth = {
@@ -273,6 +353,16 @@ k_iraq = {
 			k_iraq = { OR = { is_titular = no has_holder = yes } }
 		}	
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 }
 k_jordan = {
@@ -297,6 +387,16 @@ k_jordan = {
 			k_jordan = { OR = { is_titular = no has_holder = yes } }
 		}				
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 }
 k_badawi = {
@@ -321,6 +421,16 @@ k_badawi = {
 			k_badawi = { OR = { is_titular = no has_holder = yes } }
 		}				
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10	
 }
 k_belgium = {
@@ -344,6 +454,16 @@ k_belgium = {
 			k_belgium = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 }
 k_marino = {	
@@ -370,6 +490,16 @@ k_marino = {
 			k_marino = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 }
 k_lucca = {	
@@ -391,6 +521,16 @@ k_lucca = {
 			k_lucca = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 }
 k_illyria = {
@@ -414,6 +554,16 @@ k_illyria = {
 			k_illyria = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 }
 k_bahrain = {
@@ -438,6 +588,16 @@ k_bahrain = {
 			k_bahrain = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 }
 k_romania = {
@@ -463,7 +623,16 @@ k_romania = {
 			k_romania = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
-	
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 
 }
@@ -496,59 +665,17 @@ d_gothia = {
 } 
 k_ktuscany = {	
 	color={ 244 227 160 }
-	capital = 328 # Firenze
 	culture = italian
-	allow = {		
-		hidden_tooltip = {
-			OR = {
-				AND = {
-					ai = yes
-					has_global_flag = ftt_ai
-				}
-				ai = no
-			}
-		}
-		k_ktuscany = { OR = { is_titular = no has_holder = yes } }
-	}
-	dignity = 10
 }
 
 k_kaustria = {	
 	color = { 224 67 46 }
-	capital = 449 # Osterreich
 	culture = german
-	allow = {		
-		hidden_tooltip = {
-			OR = {
-				AND = {
-					ai = yes
-					has_global_flag = ftt_ai
-				}
-				ai = no
-			}
-		}
-		k_kaustria = { OR = { is_titular = no has_holder = yes } }
-	}
-	dignity = 10
 }
 
 k_kluxembourg = {
 	color = { 0 150 255 }
-	capital = 115 # Luxembourg
 	culture = german
-	allow = {		
-		hidden_tooltip = {
-			OR = {
-				AND = {
-					ai = yes
-					has_global_flag = ftt_ai
-				}
-				ai = no
-			}
-		}
-		k_kluxembourg = { OR = { is_titular = no has_holder = yes } }
-	}
-	dignity = 10
 }		
 k_tuscany = {	
 	color = { 251  255  0 }
@@ -564,8 +691,6 @@ k_tuscany = {
 				ai = no
 			}
 		}
-		k_ktuscany = { is_titular = yes }
-		k_ktuscany = { has_holder = no }
 		OR = {
 			k_tuscany = { is_titular = no}
 			NOT = {
@@ -573,6 +698,16 @@ k_tuscany = {
 			}
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 	
 	title_prefix = "GRANDDUKE_OF"
@@ -594,8 +729,6 @@ k_austria = {
 				ai = no
 			}
 		}
-		k_kaustria = { is_titular = yes }
-		k_kaustria = { has_holder = no}
 		OR = {
 			k_austria = { is_titular = no}
 			NOT = {
@@ -603,6 +736,16 @@ k_austria = {
 			}
 		}	
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 	
 	title_prefix = "ARCHDUKE_OF"
@@ -632,6 +775,16 @@ k_luxembourg = {
 			}
 		}	
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}	
 	dignity = 10
 	
 	title_prefix = "GRANDDUKE_OF"
@@ -660,6 +813,16 @@ k_yugoslavia= {
 			k_yugoslavia = { OR = { is_titular = no has_holder = yes } }
 		}		
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 }
 k_sami = {
@@ -689,6 +852,16 @@ k_sami = {
 			k_sami = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 	
 	title = "HEAD_CHIEF"
@@ -718,6 +891,16 @@ e_carthage = {
 			e_carthage = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
+		}
+	}		
 	dignity = 10
 }
 
@@ -743,6 +926,16 @@ e_gaul = {
 			e_gaul = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
+		}
+	}		
 	dignity = 10
 }
 k_wurttemberg = {
@@ -766,6 +959,16 @@ k_wurttemberg = {
 			k_wurttemberg = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}		
 	dignity = 10
 }
 k_tnetherlands = {
@@ -789,6 +992,16 @@ k_tnetherlands = {
 			k_tnetherlands = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}			
 	dignity = 10
 }
 k_macedonia = {
@@ -812,6 +1025,16 @@ k_macedonia = {
 			k_macedonia = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}			
 	dignity = 10
 }
 k_albania = {
@@ -835,6 +1058,16 @@ k_albania = {
 			k_albania = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}			
 	dignity = 10
 }
 k_sparta = {
@@ -859,6 +1092,16 @@ k_sparta = {
 			k_sparta = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}			
 	dignity = 10
 }
 k_roma = {
@@ -883,6 +1126,16 @@ k_roma = {
 			k_roma = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}			
 	dignity = 10
 }
 k_morea = {
@@ -906,6 +1159,16 @@ k_morea = {
 			k_morea = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}			
 	dignity = 10
 }										
 e_celtic = {
@@ -933,7 +1196,17 @@ e_celtic = {
 			realm_size = 180
 			e_celtic = { OR = { is_titular = no has_holder = yes } }
 		}
-	}	
+	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
+		}
+	}			
 }
 e_common = {
 	color={ 176 81 111 }
@@ -966,7 +1239,17 @@ e_common = {
 			realm_size = 180
 			e_common = { OR = { is_titular = no has_holder = yes } }
 		}
-	}	
+	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
+		}
+	}
 }
 e_jewish = {
 	color={ 180 53 220 }
@@ -990,6 +1273,16 @@ e_jewish = {
 		OR = {
 			realm_size = 180
 			e_jewish = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
 		}
 	}	
 }
@@ -1020,6 +1313,16 @@ e_slavic = {
 			realm_size = 180
 			e_slavic = { OR = { is_titular = no has_holder = yes } }
 		}
+	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
+		}
 	}	
 }
 k_athenai = {
@@ -1043,6 +1346,16 @@ k_athenai = {
 			k_athenai = { OR = { is_titular = no has_holder = yes } }
 		}
 	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.1 }
+			}
+		}
+	}	
 	dignity = 10
 }
 e_seleucid = {
@@ -1068,6 +1381,16 @@ e_seleucid = {
 		OR = {
 			realm_size = 180
 			e_seleucid = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	gain_effect = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { id = fttdejure.2 }
+			}
 		}
 	}	
 }
