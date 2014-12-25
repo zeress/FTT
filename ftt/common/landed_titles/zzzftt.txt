@@ -754,8 +754,6 @@ k_luxembourg = {
 				ai = no
 			}
 		}
-		k_kluxembourg = { is_titular = yes }
-		k_kluxembourg = { has_holder = no}
 		OR = {
 			k_luxembourg = { is_titular = no}
 			NOT = {
