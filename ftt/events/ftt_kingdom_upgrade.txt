@@ -3,40 +3,60 @@ namespace = upg
 #Kingdom of Tuscany
 character_event = {
 	id = upg.0
-	title = "EVTTITLE_upg"
-	desc = "EVTDESC_upg.0"
-	picture = GFX_evt_courier
-	sound = church_bells
+	hide_window = yes
 
-	is_triggered_only = yes
-	hide_from = yes
-
-	option = {
-		name = "EVTOPTA_upg"
-		set_character_flag = centralize_without_penalties
-		k_ktuscany = {
-			hidden_tooltip = {
-				copy_title_laws = k_tuscany
+	trigger = {
+		k_tuscany = {
+			holder_scope = {
+				independent = yes
+				war = no
 			}
-			gain_title = ROOT				
 		}
-		clr_character_flag = centralize_without_penalties		
-		hidden_tooltip = {
-			any_playable_ruler = {
-			  any_realm_character = {
-					limit = {
-						has_claim = k_tuscany
-					}
-					add_pressed_claim = k_ktuscany
-					remove_claim = k_tuscany
-				}
-			}			
-			k_tuscany = {
-					any_de_jure_vassal_title = {
-						de_jure_liege = k_ktuscany
-					}
-				destroy_landed_title = yes 
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		k_tuscany = {
+			set_name="k_ktuscany"
+			adjective="k_ktuscany_adj"
+			title_prefix = ""
+			title = ""
+			title_female = ""
+			foa = ""
+			set_coa = k_ktuscany
+		}
+	}
+}
+
+character_event = {
+	id = upg.3
+	hide_window = yes
+
+	trigger = {
+		k_tuscany = {
+			holder_scope = {
+				independent = no
+				war = no
 			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		k_tuscany = {
+			set_name=""
+			adjective=""
+			title_prefix = "GRANDDUKE_OF"
+			title = "GRANDDUKE"
+			title_female = "GRANDDUCHESS"
+			foa = "GRANDDUKE_FOA_TUSCANY"
+			reset_coa = THIS
 		}
 	}
 }
@@ -45,81 +65,119 @@ character_event = {
 #Kingdom of Austria
 character_event = {
 	id = upg.1
-	title = "EVTTITLE_upg"
-	desc = "EVTDESC_upg.1"
-	picture = GFX_evt_courier
-	sound = church_bells
+	hide_window = yes
 
-	is_triggered_only = yes
-	hide_from = yes
+	trigger = {
+		k_tuscany = {
+			holder_scope = {
+				independent = yes
+				war = no
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		k_austria = {
+			set_name="k_kaustria"
+			adjective="k_kaustria_adj"
+			title_prefix = ""
+			title = ""
+			title_female = ""
+			foa = ""
+			set_coa = k_ktuscany
+		}
+	}
+}
 
-	option = {
-		name = "EVTOPTA_upg"
-			set_character_flag = centralize_without_penalties
-			k_kaustria = {
-				hidden_tooltip = {
-					copy_title_laws = k_austria
-				}
-				gain_title = ROOT				
+character_event = {
+	id = upg.4
+	hide_window = yes
+
+	trigger = {
+		k_austria = {
+			holder_scope = {
+				independent = no
+				war = no
 			}
-			clr_character_flag = centralize_without_penalties
-			hidden_tooltip = {
-				any_playable_ruler = {
-				  any_realm_character = {
-						limit = {
-							has_claim = k_austria
-						}
-						add_pressed_claim = k_kaustria
-						remove_claim = k_austria
-					}
-				}			
-				k_austria = {
-						any_de_jure_vassal_title = {
-							de_jure_liege = k_kaustria
-						}
-					destroy_landed_title = yes 
-				}
-			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		k_austria = {
+			set_name=""
+			adjective=""
+			title_prefix = "ARCHDUKE_OF"
+			title = "ARCHDUKE"
+			title_female = "ARCHDUCHESS"
+			reset_coa = THIS
+		}
 	}
 }
 
 #Kingdom of Luxembourg
 character_event = {
 	id = upg.2
-	title = "EVTTITLE_upg"
-	desc = "EVTDESC_upg.2"
-	picture = GFX_evt_courier
-	sound = church_bells
+	hide_window = yes
 
-	is_triggered_only = yes
-	hide_from = yes
-
-	option = {
-		name = "EVTOPTA_upg"
-		set_character_flag = centralize_without_penalties
-		k_kluxembourg = {
-			hidden_tooltip = {
-				copy_title_laws = k_luxembourg
+	trigger = {
+		k_luxembourg = {
+			holder_scope = {
+				independent = yes
+				war = no
 			}
-			gain_title = ROOT				
 		}
-		clr_character_flag = centralize_without_penalties
-		hidden_tooltip = {
-			any_playable_ruler = {
-			  any_realm_character = {
-					limit = {
-						has_claim = k_luxembourg
-					}
-					add_pressed_claim = k_kluxembourg
-					remove_claim = k_luxembourg
-				}
-			}		
-			k_luxembourg = {
-				any_de_jure_vassal_title = {
-					de_jure_liege = k_kluxembourg
-				}
-				destroy_landed_title = yes 
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		k_luxembourg = {
+			set_name="k_kluxembourg"
+			adjective="k_kluxembourg_adj"
+			title_prefix = ""
+			title = ""
+			title_female = ""
+			foa = ""
+			set_coa = k_kluxembourg
+		}
+	}
+}
+
+character_event = {
+	id = upg.5
+	hide_window = yes
+
+	trigger = {
+		k_luxembourg = {
+			holder_scope = {
+				independent = no
+				war = no
 			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		k_luxembourg = {
+			set_name=""
+			adjective=""
+			title_prefix = "GRANDDUKE_OF"
+			title = "GRANDDUKE"
+			title_female = "GRANDDUCHESS"
+			reset_coa = THIS
 		}
 	}
 }

@@ -665,17 +665,14 @@ d_gothia = {
 } 
 k_ktuscany = {	
 	color={ 244 227 160 }
-	culture = italian
 }
 
 k_kaustria = {	
 	color = { 224 67 46 }
-	culture = german
 }
 
 k_kluxembourg = {
 	color = { 0 150 255 }
-	culture = german
 }		
 k_tuscany = {	
 	color = { 251  255  0 }
@@ -709,11 +706,6 @@ k_tuscany = {
 		}
 	}		
 	dignity = 10
-	
-	title_prefix = "GRANDDUKE_OF"
-	title = "GRANDDUKE"
-	title_female = "GRANDDUCHESS"
-	foa = "GRANDDUKE_FOA_TUSCANY"
 }
 k_austria = {
 	color = { 0 255 238 }
@@ -747,10 +739,6 @@ k_austria = {
 		}
 	}		
 	dignity = 10
-	
-	title_prefix = "ARCHDUKE_OF"
-	title = "ARCHDUKE"
-	title_female = "ARCHDUCHESS"
 }
 k_luxembourg = {
 	color = { 210 100 100 }
@@ -786,10 +774,6 @@ k_luxembourg = {
 		}
 	}	
 	dignity = 10
-	
-	title_prefix = "GRANDDUKE_OF"
-	title = "GRANDDUKE"
-	title_female = "GRANDDUCHESS"
 }
 k_yugoslavia= {
 	color = { 221 0 0 }
