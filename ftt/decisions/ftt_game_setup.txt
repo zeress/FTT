@@ -1,26 +1,53 @@
 decisions = {
-		#Allow User to choose if AI can make the extra titles
-		ftt_ai = { 
-			is_high_prio = yes
-			potential = {
-				ai = no
-				NOT = { has_global_flag = ftt_setup_complete }
-			}
-			
-			allow = {
-			}
-
-			effect = {
-				set_global_flag = ftt_setup_complete
-				character_event = { 
-					id = ftt_setup.0 
-				}      
-			}
-			revoke_allowed = {
-				always = no
-			}
-			ai_will_do = {
-				factor = 0                    
-			}			
+	#Allow User to choose if AI can make the extra titles
+	ftt_ai = { 
+		is_high_prio = yes
+		potential = {
+			ai = no
+			NOT = { has_global_flag = ftt_setup_complete }
 		}
+		
+		allow = {
+		}
+
+		effect = {
+			set_global_flag = ftt_setup_complete
+			set_global_flag = ftt_setup_in_process
+			character_event = { 
+				id = 1000220002 
+			}      
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0                    
+		}			
+	}
+	ftt_change = { 
+		potential = {
+			ai = no
+			has_global_flag = ftt_setup_complete			
+			NOT = { 
+				has_global_flag = ftt_hide_options
+				has_global_flag = ftt_setup_in_process
+			}
+		}
+		
+		allow = {
+		}
+
+		effect = {
+			set_global_flag = ftt_setup_in_process
+			character_event = { 
+				id = 1000220010 
+			}      
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0                    
+		}			
+	}	
 }						

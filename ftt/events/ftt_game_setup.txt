@@ -1,7 +1,6 @@
-namespace = ftt_setup
 character_event = {
-	id = ftt_setup.0
-	desc = "EVTDESC_ftt_setup.0"
+	id = 1000220002
+	desc = "EVTDESC_1000220002"
 	picture = GFX_evt_emissary
 
 	is_triggered_only = yes
@@ -10,8 +9,87 @@ character_event = {
 	option = {
 		name = "Yes"
 		set_global_flag = ftt_ai
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { 
+					id = 1000220009 
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_dlc = "Charlemagne" }
+				}
+				clr_global_flag = ftt_setup_in_process
+			}			
+		}
 	}
 	option = {
 		name = "No"
+		clr_global_flag = ftt_ai
+		hidden_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				character_event = { 
+					id = 1000220009 
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_dlc = "Charlemagne" }
+				}
+				clr_global_flag = ftt_setup_in_process
+			}			
+		}		
+	}	
+}
+character_event = {
+	id = 1000220009
+	desc = "EVTDESC_1000220009"
+	picture = GFX_evt_emissary
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = EVTOPTA1000220009 # Instant
+		set_global_flag = ftt_instant
+		clr_global_flag = ftt_setup_in_process
+	}
+	option = {
+		name = EVTOPTB1000220009 # Standard
+		clr_global_flag = ftt_instant
+		clr_global_flag = ftt_setup_in_process
+	}	
+}
+character_event = {
+	id = 1000220010
+	desc = "EVTDESC_1000220010"
+	picture = GFX_evt_emissary
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = EVTOPTA1000220010 # Yes
+		hidden_tooltip = {
+			clr_global_flag = ftt_ai
+			clr_global_flag = ftt_instant
+			character_event = { 
+				id = 1000220002 
+			}		
+		}
+	}
+	option = {
+		name = EVTOPTB1000220010 # No
+		clr_global_flag = ftt_setup_in_process
+	}
+	option = {
+		name = EVTOPTC1000220010 # Hide
+		set_global_flag = ftt_hide_options
 	}	
 }

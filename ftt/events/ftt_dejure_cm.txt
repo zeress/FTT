@@ -1,7 +1,5 @@
-namespace = fttdejure
-
 character_event = {
-	id = fttdejure.1
+	id = 1000220000
 	hide_window = yes
 	
 	immediate = { # Kingdom de Jure land
@@ -58,7 +56,7 @@ character_event = {
 }
 
 character_event = {
-	id = fttdejure.2
+	id = 1000220001
 	hide_window = yes
 	
 	immediate = { # Empire de Jure land

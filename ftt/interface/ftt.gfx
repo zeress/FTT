@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ftt_ai"
+		texturefile = "gfx\\ftt\\ftt.dds"
+	}
+	spriteType = {
+		name = "GFX_ftt_change"
+		texturefile = "gfx\\ftt\\ftt.dds"
+	}
+}

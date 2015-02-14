@@ -31,9 +31,12 @@ e_dutch = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}	
@@ -69,9 +72,12 @@ e_norman = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}	
@@ -107,9 +113,12 @@ e_breton = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}	
@@ -141,9 +150,12 @@ e_maghreb = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}	
@@ -183,9 +195,12 @@ e_north_sea = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}	
@@ -225,9 +240,12 @@ e_outremer = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}	
@@ -263,9 +281,12 @@ e_danubia = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}	
@@ -300,9 +321,12 @@ k_dublin = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}	
@@ -357,9 +381,12 @@ k_iraq = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -391,9 +418,12 @@ k_jordan = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -425,9 +455,12 @@ k_badawi = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -458,9 +491,12 @@ k_belgium = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -494,9 +530,12 @@ k_marino = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -525,9 +564,12 @@ k_lucca = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -558,9 +600,12 @@ k_illyria = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -592,9 +637,12 @@ k_bahrain = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -627,9 +675,12 @@ k_romania = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -699,9 +750,12 @@ k_tuscany = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -732,9 +786,12 @@ k_austria = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -765,9 +822,12 @@ k_luxembourg = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}	
@@ -799,9 +859,12 @@ k_yugoslavia= {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -838,9 +901,12 @@ k_sami = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -877,9 +943,12 @@ e_carthage = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}		
@@ -912,9 +981,12 @@ e_gaul = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}		
@@ -945,9 +1017,12 @@ k_wurttemberg = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}		
@@ -978,9 +1053,12 @@ k_tnetherlands = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}			
@@ -1011,9 +1089,12 @@ k_macedonia = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}			
@@ -1044,9 +1125,12 @@ k_albania = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}			
@@ -1078,9 +1162,12 @@ k_sparta = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}			
@@ -1112,9 +1199,12 @@ k_roma = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}			
@@ -1145,9 +1235,12 @@ k_morea = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}			
@@ -1183,9 +1276,12 @@ e_celtic = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}			
@@ -1226,9 +1322,12 @@ e_common = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}
@@ -1261,9 +1360,12 @@ e_jewish = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}	
@@ -1300,9 +1402,12 @@ e_slavic = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}	
@@ -1332,9 +1437,12 @@ k_athenai = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}	
@@ -1369,9 +1477,12 @@ e_seleucid = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.2 }
+				character_event = { id = 1000220001 }
 			}
 		}
 	}	
@@ -1405,9 +1516,12 @@ k_babylon = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}	
@@ -1441,9 +1555,12 @@ k_morocco = {
 		hidden_tooltip = {
 			if = {
 				limit = {
-					has_dlc = "Charlemagne"
+					AND = {
+						has_dlc = "Charlemagne"
+						has_global_flag = ftt_instant
+					}
 				}
-				character_event = { id = fttdejure.1 }
+				character_event = { id = 1000220000 }
 			}
 		}
 	}	

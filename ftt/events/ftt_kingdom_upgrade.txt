@@ -1,8 +1,6 @@
-namespace = upg
-
 #Kingdom of Tuscany
 character_event = {
-	id = upg.0
+	id = 1000220003
 	hide_window = yes
 
 	trigger = {
@@ -32,7 +30,7 @@ character_event = {
 }
 
 character_event = {
-	id = upg.3
+	id = 1000220006
 	hide_window = yes
 
 	trigger = {
@@ -64,7 +62,7 @@ character_event = {
 
 #Kingdom of Austria
 character_event = {
-	id = upg.1
+	id = 1000220004
 	hide_window = yes
 
 	trigger = {
@@ -94,7 +92,7 @@ character_event = {
 }
 
 character_event = {
-	id = upg.4
+	id = 1000220007
 	hide_window = yes
 
 	trigger = {
@@ -124,7 +122,7 @@ character_event = {
 
 #Kingdom of Luxembourg
 character_event = {
-	id = upg.2
+	id = 1000220005
 	hide_window = yes
 
 	trigger = {
@@ -154,7 +152,7 @@ character_event = {
 }
 
 character_event = {
-	id = upg.5
+	id = 1000220008
 	hide_window = yes
 
 	trigger = {
