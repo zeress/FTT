@@ -8,6 +8,7 @@ character_event = {
 
 	option = {
 		name = "Yes"
+		custom_tooltip = { text = ftt_1000220002OPTA }
 		set_global_flag = ftt_ai
 		hidden_tooltip = {
 			if = {
@@ -28,6 +29,7 @@ character_event = {
 	}
 	option = {
 		name = "No"
+		custom_tooltip = { text = ftt_1000220002OPTB }
 		clr_global_flag = ftt_ai
 		hidden_tooltip = {
 			if = {
@@ -57,11 +59,13 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000220009 # Instant
+		custom_tooltip = { text = ftt_1000220009OPTA }
 		set_global_flag = ftt_instant
 		clr_global_flag = ftt_setup_in_process
 	}
 	option = {
 		name = EVTOPTB1000220009 # Standard
+		custom_tooltip = { text = ftt_1000220009OPTB }
 		clr_global_flag = ftt_instant
 		clr_global_flag = ftt_setup_in_process
 	}	
@@ -76,20 +80,23 @@ character_event = {
 
 	option = {
 		name = EVTOPTA1000220010 # Yes
+		custom_tooltip = { text = ftt_1000220010OPTA }
 		hidden_tooltip = {
 			clr_global_flag = ftt_ai
 			clr_global_flag = ftt_instant
-			character_event = { 
-				id = 1000220002 
+			character_event = {
+				id = 1000220002
 			}		
 		}
 	}
 	option = {
 		name = EVTOPTB1000220010 # No
+		custom_tooltip = { text = ftt_1000220010OPTB }
 		clr_global_flag = ftt_setup_in_process
 	}
 	option = {
 		name = EVTOPTC1000220010 # Hide
+		custom_tooltip = { text = ftt_1000220010OPTC }
 		set_global_flag = ftt_hide_options
 	}	
 }

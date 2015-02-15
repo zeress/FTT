@@ -29,15 +29,7 @@ e_dutch = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}	
 }
@@ -70,15 +62,7 @@ e_norman = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}	
 }
@@ -111,15 +95,7 @@ e_breton = {
 	}	
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}	
 }
@@ -148,15 +124,7 @@ e_maghreb = {
 	}	
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}	
 	culture = maghreb_arabic
@@ -193,15 +161,7 @@ e_north_sea = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}	
 	short_name = yes
@@ -238,15 +198,7 @@ e_outremer = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}	
 	short_name = yes
@@ -279,15 +231,7 @@ e_danubia = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}	
 	short_name = yes	
@@ -319,15 +263,7 @@ k_dublin = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}	
 	dignity = 10
@@ -379,15 +315,7 @@ k_iraq = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -416,15 +344,7 @@ k_jordan = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -453,15 +373,7 @@ k_badawi = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10	
@@ -489,15 +401,7 @@ k_belgium = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -528,15 +432,7 @@ k_marino = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -562,15 +458,7 @@ k_lucca = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -598,15 +486,7 @@ k_illyria = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -635,15 +515,7 @@ k_bahrain = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -673,15 +545,7 @@ k_romania = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -748,15 +612,7 @@ k_tuscany = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -784,15 +640,7 @@ k_austria = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -820,15 +668,7 @@ k_luxembourg = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}	
 	dignity = 10
@@ -857,15 +697,7 @@ k_yugoslavia= {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -899,15 +731,7 @@ k_sami = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -941,15 +765,7 @@ e_carthage = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}		
 	dignity = 10
@@ -979,15 +795,7 @@ e_gaul = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}		
 	dignity = 10
@@ -1015,15 +823,7 @@ k_wurttemberg = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}		
 	dignity = 10
@@ -1051,15 +851,7 @@ k_tnetherlands = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}			
 	dignity = 10
@@ -1087,15 +879,7 @@ k_macedonia = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}			
 	dignity = 10
@@ -1123,15 +907,7 @@ k_albania = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}			
 	dignity = 10
@@ -1160,15 +936,7 @@ k_sparta = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}			
 	dignity = 10
@@ -1197,15 +965,7 @@ k_roma = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}			
 	dignity = 10
@@ -1233,15 +993,7 @@ k_morea = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}			
 	dignity = 10
@@ -1274,15 +1026,7 @@ e_celtic = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}			
 }
@@ -1320,15 +1064,7 @@ e_common = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}
 }
@@ -1358,15 +1094,7 @@ e_jewish = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}	
 }
@@ -1400,15 +1128,7 @@ e_slavic = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}	
 }
@@ -1435,15 +1155,7 @@ k_athenai = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}	
 	dignity = 10
@@ -1475,15 +1187,7 @@ e_seleucid = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220001 }
-			}
+			character_event = { id = 1000220001 }
 		}
 	}	
 }
@@ -1514,15 +1218,7 @@ k_babylon = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}	
 }
@@ -1553,15 +1249,7 @@ k_morocco = {
 	}
 	gain_effect = {
 		hidden_tooltip = {
-			if = {
-				limit = {
-					AND = {
-						has_dlc = "Charlemagne"
-						has_global_flag = ftt_instant
-					}
-				}
-				character_event = { id = 1000220000 }
-			}
+			character_event = { id = 1000220000 }
 		}
 	}	
 }	

@@ -18,6 +18,13 @@ EVTDESC_1000220010;Would you like to adjust Flavourful Titular Title's options? 
 EVTOPTA1000220010;Yes;Yes;Yes;;Yes;;;;;;;;;x;
 EVTOPTB1000220010;No;No;No;;No;;;;;;;;;x;
 EVTOPTC1000220010;Hide;Hide;Hide;;Hide;;;;;;;;;x;
+ftt_1000220009OPTA;Most of the land a ruler holds §GWILL§! instantly become de Jure upon creating a FTT specific titular title;Most of the land a ruler holds §GWILL§! instantly become de Jure upon creating a FTT specific titular title;Most of the land a ruler holds §GWILL§! instantly become de Jure upon creating a FTT specific titular title;;Most of the land a ruler holds §GWILL§! instantly become de Jure upon creating a FTT specific titular title;;;;;;;;;x;
+ftt_1000220009OPTB;Most of the land a ruler holds will §RNOT§! instantly become de Jure upon creating a FTT specific titular title;Most of the land a ruler holds will §RNOT§! instantly become de Jure upon creating a FTT specific titular title;Most of the land a ruler holds will §RNOT§! instantly become de Jure upon creating a FTT specific titular title;;Most of the land a ruler holds will §RNOT§! instantly become de Jure upon creating a FTT specific titular title;;;;;;;;;x;
+ftt_1000220002OPTA;The AI §GCAN§! make FTT specific titular titles;The AI §GCAN§! make FTT specific titular titles;The AI §GCAN§! make FTT specific titular titles;;The AI §GCAN§! make FTT specific titular titles;;;;;;;;;x;
+ftt_1000220002OPTB;The AI §RCANNOT§! make FTT specific titular titles;The AI §RCANNOT§! make FTT specific titular titles;The AI §RCANNOT§! make FTT specific titular titles;;The AI §RCANNOT§! make FTT specific titular titles;;;;;;;;;x;
+ftt_1000220010OPTA;Change Options;Change Options;Change Options;;Change Options;;;;;;;;;x;
+ftt_1000220010OPTB;Exit Options;Exit Options;Exit Options;;Exit Options;;;;;;;;;x;
+ftt_1000220010OPTC;§RPermanently§! disable the options menu;§RPermanently§! disable the options menu;§RPermanently§! disable the options menu;;§RPermanently§! disable the options menu;;;;;;;;;x;
 EVTOPTA_upg;Let it be so.;Qu'il en soit ainsi.;Lasst es so sein.;;Que así sea.;;;;;;;;;x;
 EVTTITLE_upg;The Birth of a Kingdom;La Naissance d'un Royaume;Die Geburt eines Königreichs;;El Nacimiento de un Reino;;;;;;;;;x;
 e_breton;Breton Empire;Empire Breton;Bretonisches Kaiserreich;;Breton Empire;;;;;;;;;x;

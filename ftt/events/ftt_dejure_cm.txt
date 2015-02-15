@@ -3,47 +3,55 @@ character_event = {
 	hide_window = yes
 	
 	immediate = { # Kingdom de Jure land
-		primary_title = {
-			ROOT = {
-				empire = {
-					ROOT = {
-						primary_title = {
-							de_jure_liege = PREVPREV
-						}
-					}
+		if = {
+			limit = {
+				AND = {
+					has_dlc = "Charlemagne"
+					has_global_flag = ftt_instant
 				}
-
+			}
+			primary_title = {
 				ROOT = {
-					primary_title = {
-						holder_scope = {
-							any_title_under = {
-								limit = {
-									tier = DUKE
-									kingdom = {
-										has_holder = no
-									}
-								}
+					empire = {
+						ROOT = {
+							primary_title = {
 								de_jure_liege = PREVPREV
 							}
-							any_title_under = {
-								limit = {
-									tier = COUNT
-									location = {
-										duchy = {
-											kingdom = {
-												has_holder = no
-											}
-											
-											NOT = { de_jure_liege_or_above = PREVPREVPREVPREV }
-											ROOT = {
-												completely_controls = PREV
+						}
+					}
+
+					ROOT = {
+						primary_title = {
+							holder_scope = {
+								any_title_under = {
+									limit = {
+										tier = DUKE
+										kingdom = {
+											has_holder = no
+										}
+									}
+									de_jure_liege = PREVPREV
+								}
+								any_title_under = {
+									limit = {
+										tier = COUNT
+										location = {
+											duchy = {
+												kingdom = {
+													has_holder = no
+												}
+												
+												NOT = { de_jure_liege_or_above = PREVPREVPREVPREV }
+												ROOT = {
+													completely_controls = PREV
+												}
 											}
 										}
 									}
-								}
-								location = {
-									duchy = {
-										de_jure_liege = PREVPREVPREVPREV
+									location = {
+										duchy = {
+											de_jure_liege = PREVPREVPREVPREV
+										}
 									}
 								}
 							}
@@ -60,38 +68,46 @@ character_event = {
 	hide_window = yes
 	
 	immediate = { # Empire de Jure land
-		primary_title = {
-			ROOT = {
-				primary_title = {
-					holder_scope = {
-						any_title_under = {
-							limit = {
-								tier = KING
-								empire = {
-									has_holder = no
+		if = {
+			limit = {
+				AND = {
+					has_dlc = "Charlemagne"
+					has_global_flag = ftt_instant
+				}
+			}
+			primary_title = {
+				ROOT = {
+					primary_title = {
+						holder_scope = {
+							any_title_under = {
+								limit = {
+									tier = KING
+									empire = {
+										has_holder = no
+									}
 								}
+								de_jure_liege = PREVPREV
 							}
-							de_jure_liege = PREVPREV
-						}
-						any_title_under = {
-							limit = {
-								tier = DUKE
-								location = {
-									kingdom = {
-										empire = {
-											has_holder = no
-										}
-										
-										NOT = { de_jure_liege_or_above = PREVPREVPREVPREV }
-										ROOT = {
-											completely_controls = PREV
+							any_title_under = {
+								limit = {
+									tier = DUKE
+									location = {
+										kingdom = {
+											empire = {
+												has_holder = no
+											}
+											
+											NOT = { de_jure_liege_or_above = PREVPREVPREVPREV }
+											ROOT = {
+												completely_controls = PREV
+											}
 										}
 									}
 								}
-							}
-							location = {
-								kingdom = {
-									de_jure_liege = PREVPREVPREVPREV
+								location = {
+									kingdom = {
+										de_jure_liege = PREVPREVPREVPREV
+									}
 								}
 							}
 						}
